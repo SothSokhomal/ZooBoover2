@@ -1,0 +1,149 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner{
+    height: 800px;
+    background-image: url('img/zoo-banner.jpeg');
+    background-position: top left ;
+    background-size: cover;
+
+}
+
+
+.nav{
+    background-color: aqua;
+}
+
+.nav ul{
+    list-style-type:none ;
+}
+
+.nav ul li{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: rgb(25, 219, 209);
+    margin: 15px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-style: bold;
+}
+
+.nav ul li:hover{
+    background-color: rgb(4, 117, 112);
+}
+
+.nav ul li a:hover{
+    color: aliceblue;
+}
+
+
+#amphibian{
+    background-color: antiquewhite;
+    font-weight:normal;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+#amphibian ul li{
+    text-align: left;
+    list-style-type:disc;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    overflow:hidden;
+    margin: 10px;
+}
+
+.card:hover{
+    background-color:rgb(243, 234, 225) ;
+}
+.card img{
+    width: 100%;
+}
+
+.card1{
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    overflow:hidden;
+    margin: 10px;
+}
+
+.card1:hover{
+    background-color:rgb(224, 217, 207) ;
+}
+.card1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mammal h4{
+    font-style: normal;
+    font-size: 15px;
+}
+#fish{
+    background-color: rgb(213, 204, 204);
+    border-radius: 10px;
+    border: 3px solid white;
+    font-weight: normal;
+}
+
+#fish ul li{
+
+    text-align: left;
+    list-style-type:disc;
+}
+
+#fish h5{
+    font-size: 15px;
+    font-style:bold
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    margin-left: 400px;
+}
+table th{
+    background-color: rgb(10, 131, 91);
+    color: white;
+     
+}
+
+table th:hover{
+    background-color:rgb(7, 155, 106);
+}
+table tr:hover{
+    background-color: rgb(204, 207, 209);
+
+}
+
+th,td{
+    border: 2px solid white;
+}
+
+
+table tr td img{
+    width: 100%;
+}
+
